@@ -372,12 +372,14 @@ main .container > div .search-wrap form .form-keywords button[type=submit]:hover
 .articles {
   margin-top: 100px;
 }
+@media (max-width: 1030px) {
+  .articles > .container {
+    justify-content: center;
+  }
+}
 @media (max-width: 768px) {
   .articles {
     margin-top: 30px;
-  }
-  .articles > .container {
-    justify-content: center;
   }
 }
 .articles article {

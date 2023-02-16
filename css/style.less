@@ -387,12 +387,15 @@ main {
 
 .articles {
   margin-top: 100px;
-  @media(max-width: 768px) {
-    margin-top: 30px;
-
+  @media(max-width: 1030px) {
     &>.container {
       justify-content: center;
     }
+  }
+  @media(max-width: 768px) {
+    margin-top: 30px;
+
+    
   }
   article {
     background: linear-gradient(93.67deg, #46B3B2 7.41%, rgba(36, 194, 193, 0.9) 79.91%);
