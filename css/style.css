@@ -371,6 +371,9 @@ main .container > div .search-wrap form .form-keywords button[type=submit]:hover
   .articles {
     margin-top: 30px;
   }
+  .articles > .container {
+    justify-content: center;
+  }
 }
 .articles article {
   background: linear-gradient(93.67deg, #46B3B2 7.41%, rgba(36, 194, 193, 0.9) 79.91%);
