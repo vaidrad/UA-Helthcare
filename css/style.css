@@ -541,6 +541,12 @@ main .container > div .search-wrap form .form-keywords button[type=submit]:hover
   line-height: 22px;
   color: #000;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.posters .poster .poster-links a img {
+  height: 60px;
+  width: auto;
 }
 .posters .poster .poster-links a:hover {
   background-color: rgba(70, 179, 178, 0.1);
@@ -626,6 +632,9 @@ main .container > div .search-wrap form .form-keywords button[type=submit]:hover
   border-radius: 8px;
   width: 64px;
   height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .choose-us .advantages-wrap .advantage {
   background: #FFFFFF;
